@@ -2,7 +2,8 @@ import sqlite3
 import os.path as ospath
 import psycopg2 as psql
 
-sqlite_db_path = '/home/giovanni/Documents/TrabalhoTopicoEspeciais/backend-fog/app/database/projetoTER.db'
+#sqlite_db_path = '/home/giovanni/Documents/TrabalhoTopicoEspeciais/backend-fog/app/database/projetoTER.db'
+sqlite_db_path = 'C:\\Users\\Giovanni Pereira\\Desktop\\PastaCompartilhadaRasp\\fudido\\TrabalhoTopicoEspeciais\\backend-fog\\app\\database\\projetoTER.db'
 try:
     conn_sqlite = sqlite3.connect(sqlite_db_path, check_same_thread=False)
 except Exception as e:
